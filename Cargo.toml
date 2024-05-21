@@ -1,0 +1,15 @@
+[package]
+name = "Address_to_h160"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#цветной вывод в консоль
+console = "0.15.7"
+base58 = "0.2.0"
+hex = "0.4.3"
+
+
+#это нужно для иконки
+[target.'cfg(windows)'.build-dependencies]
+winres = "0.1.12"
